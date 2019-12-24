@@ -98,7 +98,7 @@ exports.profile_manifests = {
   ftb: {
     name: 'Feed the Beast Server Packs',
     request_args: {
-      url: 'http://ftb.cursecdn.com/FTB2/static/modpacks.xml',
+      url: 'http://ftb.forgecdn.net/FTB2/static/modpacks.xml',
       json: false
     },
     handler: function(profile_dir, body, callback) {
